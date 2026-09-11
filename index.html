@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Plus+Jakarta+Sans:wght@300;400&display=swap');
+
+    :root {
+      --brand-gold: #fbbf24;
+      --brand-dark: #111827;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    .kaba-icon {
+      width: 160px;
+      height: 160px;
+      position: relative;
+      margin-bottom: 2.5rem;
+      filter: drop-shadow(0 10px 15px rgba(251, 191, 36, 0.1));
+    }
+
+    .brand-text {
+      font-family: 'Cinzel', serif;
+      color: var(--brand-gold);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    .brand-name-primary {
+      font-size: 3.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .brand-name-secondary {
+      font-size: 3.5rem;
+      font-weight: 500;
+      display: block;
+      letter-spacing: 0.25em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .gradient-gold {
+      background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .kaba-svg-stroke {
+      stroke: #fbbf24;
+      stroke-width: 4;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen flex items-center justify-center bg-white p-8" data-sd-id="1">
+    <div class="logo-container" data-sd-id="2">
+      <!-- Realistic 3D Minimalist Ka'ba Icon -->
+      <div class="kaba-icon" data-sd-id="3">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" data-sd-id="4">
+          <!-- Main Body Cube Perspective -->
+          <!-- Right side face -->
+          <path d="M100 80 L160 60 L160 140 L100 165 Z" class="kaba-svg-stroke"></path>
+          <!-- Left side face -->
+          <path d="M100 80 L40 60 L40 140 L100 165 Z" class="kaba-svg-stroke"></path>
+          <!-- Top face -->
+          <path d="M100 80 L160 60 L100 40 L40 60 Z" class="kaba-svg-stroke"></path>
+          
+          <!-- Kiswah Trim Detail (The golden band) -->
+          <path d="M40 78 L100 98 L160 78" class="kaba-svg-stroke" style="opacity: 0.8; stroke-width: 3"></path>
+          
+          <!-- Door Element Detail -->
+          <rect x="115" y="105" width="25" height="12" rx="1" class="kaba-svg-stroke" style="stroke-width: 2" transform="skewY(-15)"></rect>
+        </svg>
+      </div>
+
+      <!-- Typography -->
+      <h1 class="brand-text" data-sd-id="5">
+        <span class="brand-name-primary gradient-gold" data-sd-id="6">Shiratul Jannah</span>
+        <span class="brand-name-secondary" data-sd-id="7">Jabar</span>
+      </h1>
+      
+      <!-- Subtle Subtitle/Descriptor -->
+      <p class="mt-8 text-sm font-light tracking-[0.4em] text-gray-400 uppercase font-sans" data-sd-id="8">
+        Travel • Umrah • Hajj
+      </p>
+    </div>
+  </div>
+
+</body></html>
