@@ -1,0 +1,22 @@
+<nav id="main-nav"
+    class="fixed w-full z-50 bg-white border-b border-gray-100 px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-2">
+        <div class="w-10 h-10 bg-white-400 rounded-lg flex items-center justify-center">
+            <img src="icon.png" />
+            <!-- <iconify-icon icon="lucide:heart-handshake" class="text-white text-2xl"></iconify-icon> -->
+        </div>
+        <span class="font-bold text-xl tracking-tight text-gray-800">SirathulJannah<span
+                class="text-yellow-500">Jabar</span></span>
+    </div>
+    <div class="hidden md:flex gap-8 items-center font-medium text-gray-600">
+        <a href="#hero" id="nav-home-link" class="hover:text-yellow-500 transition-colors">Home</a>
+        <a href="#about" id="nav-about-link" class="hover:text-yellow-500 transition-colors">Tentang</a>
+        <a href="#concepts" id="nav-concepts-link" class="hover:text-yellow-500 transition-colors">Prinsip</a>
+        <a href="#community" id="nav-community-link" class="hover:text-yellow-500 transition-colors">Komunitas</a>
+        <a href="#join" id="cta-nav-join" (click)="show()"
+            class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-sm">Keberangkatan</a>
+    </div>
+    <button class="md:hidden text-gray-600 text-2xl">
+        <!-- <iconify-icon icon="lucide:menu"></iconify-icon> -->
+    </button>
+</nav>
