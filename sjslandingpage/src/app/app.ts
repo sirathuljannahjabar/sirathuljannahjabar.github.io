@@ -13,6 +13,7 @@ import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { MainPage } from './pages/main-page/main-page';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import {LicenseManager}
 
 @Component({
   selector: 'app-root',

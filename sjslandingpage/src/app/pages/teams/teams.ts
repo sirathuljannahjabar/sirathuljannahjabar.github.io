@@ -1,6 +1,6 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { AvatarModule } from 'primeng/avatar';
-import { OrganizationChartModule, OrganizationChartNode } from 'primeng/organizationchart';
+import { OrganizationChartModule, OrganizationChart } from 'primeng/organizationchart';
 import { SharedModule, TreeNode } from 'primeng/api';
 // import { Product } from '@/domain/product';
 
