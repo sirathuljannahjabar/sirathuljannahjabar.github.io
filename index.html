@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap"
+        rel="stylesheet">
     <style type="text/tailwindcss">
         @theme {
             --font-sans: 'Plus Jakarta Sans', sans-serif;
@@ -38,141 +41,122 @@
             }
         }
     </style>
-	<style>
-    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Plus+Jakarta+Sans:wght@300;400&display=swap');
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Plus+Jakarta+Sans:wght@300;400&display=swap');
 
-    :root {
-      --brand-gold: #fbbf24;
-      --brand-dark: #111827;
-    }
+        :root {
+            --brand-gold: #fbbf24;
+            --brand-dark: #111827;
+        }
 
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
 
-    .logo-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      animation: fadeIn 1.2s ease-out;
-    }
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            animation: fadeIn 1.2s ease-out;
+        }
 
-    .kaba-icon {
-      width: 160px;
-      height: 160px;
-      position: relative;
-      margin-bottom: 2.5rem;
-      filter: drop-shadow(0 10px 15px rgba(251, 191, 36, 0.1));
-    }
+        .kaba-icon {
+            width: 160px;
+            height: 160px;
+            position: relative;
+            margin-bottom: 2.5rem;
+            filter: drop-shadow(0 10px 15px rgba(251, 191, 36, 0.1));
+        }
 
-    .brand-text {
-      font-family: 'Cinzel', serif;
-      color: var(--brand-gold);
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      line-height: 1.2;
-    }
+        .brand-text {
+            font-family: 'Cinzel', serif;
+            color: var(--brand-gold);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
 
-    .brand-name-primary {
-      font-size: 3.5rem;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-    }
+        .brand-name-primary {
+            font-size: 3.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
 
-    .brand-name-secondary {
-      font-size: 3.5rem;
-      font-weight: 500;
-      display: block;
-      letter-spacing: 0.25em;
-    }
+        .brand-name-secondary {
+            font-size: 3.5rem;
+            font-weight: 500;
+            display: block;
+            letter-spacing: 0.25em;
+        }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
 
-    .gradient-gold {
-      background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-    .kaba-svg-stroke {
-      stroke: #fbbf24;
-      stroke-width: 4;
-      fill: none;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-  </style>
+        .gradient-gold {
+            background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .kaba-svg-stroke {
+            stroke: #fbbf24;
+            stroke-width: 4;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    </style>
 </head>
+
 <body>
     <div class="min-h-screen flex flex-col relative">
         <!-- Navigation Bar -->
-        <nav id="main-nav" class="fixed w-full z-50 bg-white border-b border-gray-100 px-6 py-4 flex justify-between items-center">
+        <nav id="main-nav"
+            class="fixed w-full z-50 bg-white border-b border-gray-100 px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <div class="w-10 h-10 bg-yellow-400 rounded-lg flex items-center justify-center">
                     <iconify-icon icon="lucide:heart-handshake" class="text-white text-2xl"></iconify-icon>
                 </div>
-                <span class="font-bold text-xl tracking-tight text-gray-800">SirathulJannah<span class="text-yellow-500">Jabar</span></span>
+                <span class="font-bold text-xl tracking-tight text-gray-800">SirathulJannah<span
+                        class="text-yellow-500">Jabar</span></span>
             </div>
             <div class="hidden md:flex gap-8 items-center font-medium text-gray-600">
                 <a href="#hero" id="nav-home-link" class="hover:text-yellow-500 transition-colors">Home</a>
                 <a href="#about" id="nav-about-link" class="hover:text-yellow-500 transition-colors">About</a>
-                <a href="#concepts" id="nav-concepts-link" class="hover:text-yellow-500 transition-colors">Principles</a>
-                <a href="#community" id="nav-community-link" class="hover:text-yellow-500 transition-colors">Community</a>
-                <a href="#join" id="cta-nav-join" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-sm">Join Us</a>
+                <a href="#concepts" id="nav-concepts-link"
+                    class="hover:text-yellow-500 transition-colors">Principles</a>
+                <a href="#community" id="nav-community-link"
+                    class="hover:text-yellow-500 transition-colors">Community</a>
+                <a href="#join" id="cta-nav-join"
+                    class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-sm">Join
+                    Us</a>
             </div>
             <button class="md:hidden text-gray-600 text-2xl">
                 <iconify-icon icon="lucide:menu"></iconify-icon>
             </button>
         </nav>
-		
-		<div class="min-h-screen flex items-center justify-center bg-white p-8" data-sd-id="1">
-    <div class="logo-container" data-sd-id="2">
-      <!-- Realistic 3D Minimalist Ka'ba Icon -->
-      <div class="kaba-icon" data-sd-id="3">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" data-sd-id="4">
-          <!-- Main Body Cube Perspective -->
-          <!-- Right side face -->
-          <path d="M100 80 L160 60 L160 140 L100 165 Z" class="kaba-svg-stroke"></path>
-          <!-- Left side face -->
-          <path d="M100 80 L40 60 L40 140 L100 165 Z" class="kaba-svg-stroke"></path>
-          <!-- Top face -->
-          <path d="M100 80 L160 60 L100 40 L40 60 Z" class="kaba-svg-stroke"></path>
-          
-          <!-- Kiswah Trim Detail (The golden band) -->
-          <path d="M40 78 L100 98 L160 78" class="kaba-svg-stroke" style="opacity: 0.8; stroke-width: 3"></path>
-          
-          <!-- Door Element Detail -->
-          <rect x="115" y="105" width="25" height="12" rx="1" class="kaba-svg-stroke" style="stroke-width: 2" transform="skewY(-15)"></rect>
-        </svg>
-      </div>
-
-      <!-- Typography -->
-      <h1 class="brand-text" data-sd-id="5">
-        <span class="brand-name-primary gradient-gold" data-sd-id="6">Sirathul Jannah</span>
-        <span class="brand-name-secondary" data-sd-id="7">Jabar</span>
-      </h1>
-      
-      <!-- Subtle Subtitle/Descriptor -->
-      <p class="mt-8 text-sm font-light tracking-[0.4em] text-gray-400 uppercase font-sans" data-sd-id="8">
-        Travel • Umrah • Hajj
-      </p>
-    </div>
-  </div>
 
         <!-- Hero Section -->
         <section id="hero" class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
             <div class="absolute inset-0 bg-pattern"></div>
             <div class="max-w-7xl mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-12 items-center">
                 <div class="space-y-8">
-                    <div class="inline-flex items-center gap-2 bg-yellow-100 text-yellow-700 px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase">
+                    <div
+                        class="inline-flex items-center gap-2 bg-yellow-100 text-yellow-700 px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase">
                         <iconify-icon icon="lucide:sparkles"></iconify-icon>
                         <span>Welcome to {Travel Agent Name}</span>
                     </div>
@@ -180,28 +164,37 @@
                         Connecting Hearts Through <span class="text-yellow-500 italic">Best Umraah</span>
                     </h1>
                     <p class="text-xl text-gray-600 leading-relaxed max-w-lg">
-						Menjadikan keinginan untuk beribadah umrah menjadi lebih mudah dan meyakinkan. Fokus ibadah dan dapatkan kenyamanan yang nyata.
+                        Menjadikan keinginan untuk beribadah umrah menjadi lebih mudah dan meyakinkan. Fokus ibadah dan
+                        dapatkan kenyamanan yang nyata.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="#community" id="hero-cta-primary" class="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-2xl font-bold text-center transition-all flex items-center justify-center gap-2 shadow-xl hover:translate-y-[-2px]">
+                        <a href="#community" id="hero-cta-primary"
+                            class="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-2xl font-bold text-center transition-all flex items-center justify-center gap-2 shadow-xl hover:translate-y-[-2px]">
                             Kontak Kami
                             <iconify-icon icon="lucide:arrow-right"></iconify-icon>
                         </a>
-                        <a href="#about" id="hero-cta-secondary" class="bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-100 px-8 py-4 rounded-2xl font-bold text-center transition-all shadow-sm">
+                        <a href="#about" id="hero-cta-secondary"
+                            class="bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-100 px-8 py-4 rounded-2xl font-bold text-center transition-all shadow-sm">
                             Lihat QnA
                         </a>
                     </div>
                 </div>
                 <div class="relative">
                     <div class="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl bg-yellow-400">
-                        <img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&amp;fit=crop&amp;q=80&amp;w=1000" alt="Islamic Architecture" class="w-full aspect-[4/5] object-cover opacity-90 hover:opacity-100 transition-opacity">
+                        <img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&amp;fit=crop&amp;q=80&amp;w=1000"
+                            alt="Islamic Architecture"
+                            class="w-full aspect-[4/5] object-cover opacity-90 hover:opacity-100 transition-opacity">
                     </div>
-                    <div class="absolute -bottom-8 -left-8 w-48 h-48 bg-gray-200 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-pulse"></div>
-                    <div class="absolute -top-8 -right-8 w-40 h-40 bg-yellow-200 rounded-full mix-blend-multiply filter blur-2xl opacity-70"></div>
+                    <div
+                        class="absolute -bottom-8 -left-8 w-48 h-48 bg-gray-200 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-pulse">
+                    </div>
+                    <div
+                        class="absolute -top-8 -right-8 w-40 h-40 bg-yellow-200 rounded-full mix-blend-multiply filter blur-2xl opacity-70">
+                    </div>
                 </div>
             </div>
         </section>
-		
+
 
         <!-- About Deen Section -->
         <section id="about" class="py-24 bg-white">
@@ -209,38 +202,46 @@
                 <div class="grid md:grid-cols-3 gap-16 items-center">
                     <div class="order-2 md:order-1">
                         <div class="grid grid-cols-2 gap-2">
-							<!--
+                            <!--
                             <div class="pt-12">
                                 <img src="https://images.unsplash.com/photo-1574246604907-db8c7555df9a?auto=format&amp;fit=crop&amp;q=80&amp;w=500" alt="Spiritual Growth" class="rounded-3xl shadow-lg">
                             </div>
 							-->
                             <div>
-                                <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&amp;fit=crop&amp;q=80&amp;w=500" alt="Peaceful Prayer" class="rounded-3xl shadow-lg">
+                                <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&amp;fit=crop&amp;q=80&amp;w=500"
+                                    alt="Peaceful Prayer" class="rounded-3xl shadow-lg">
                             </div>
                         </div>
                     </div>
                     <div class="col-span-2 space-y-6 order-1 md:order-2">
-                        <h2 class="text-4xl font-bold text-gray-900 leading-tight">Rooted in Knowledge, Guided by <span class="text-yellow-500">Compassion</span></h2>
+                        <h2 class="text-4xl font-bold text-gray-900 leading-tight">Rooted in Knowledge, Guided by <span
+                                class="text-yellow-500">Compassion</span></h2>
                         <p class="text-lg text-gray-600 leading-relaxed">
-                            Islam is not just a religion, but a complete way of life—a 'Deen'. It is built on the foundations of peace, justice, and the sincere worship of the One Creator. Our teachings emphasize the importance of mercy towards all creation.
+                            Islam is not just a religion, but a complete way of life—a 'Deen'. It is built on the
+                            foundations of peace, justice, and the sincere worship of the One Creator. Our teachings
+                            emphasize the importance of mercy towards all creation.
                         </p>
                         <div class="space-y-4">
                             <div class="flex items-start gap-4 p-4 bg-gray-50 rounded-2xl">
-                                <div class="w-12 h-12 shrink-0 bg-yellow-400 rounded-xl flex items-center justify-center text-white text-xl shadow-inner">
+                                <div
+                                    class="w-12 h-12 shrink-0 bg-yellow-400 rounded-xl flex items-center justify-center text-white text-xl shadow-inner">
                                     <iconify-icon icon="lucide:book-open"></iconify-icon>
                                 </div>
                                 <div>
                                     <h4 class="font-bold text-gray-900">Universal Wisdom</h4>
-                                    <p class="text-gray-500 text-sm">Timeless principles that apply to every facet of modern daily life.</p>
+                                    <p class="text-gray-500 text-sm">Timeless principles that apply to every facet of
+                                        modern daily life.</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4 p-4 bg-gray-50 rounded-2xl">
-                                <div class="w-12 h-12 shrink-0 bg-yellow-400 rounded-xl flex items-center justify-center text-white text-xl shadow-inner">
+                                <div
+                                    class="w-12 h-12 shrink-0 bg-yellow-400 rounded-xl flex items-center justify-center text-white text-xl shadow-inner">
                                     <iconify-icon icon="lucide:users"></iconify-icon>
                                 </div>
                                 <div>
                                     <h4 class="font-bold text-gray-900">Social Harmony</h4>
-                                    <p class="text-gray-500 text-sm">Encouraging brotherhood, charity, and support for those in need.</p>
+                                    <p class="text-gray-500 text-sm">Encouraging brotherhood, charity, and support for
+                                        those in need.</p>
                                 </div>
                             </div>
                         </div>
@@ -253,33 +254,44 @@
         <section id="concepts" class="py-24 bg-gray-50">
             <div class="max-w-7xl mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-4xl font-bold text-gray-900 mb-6">The Pillars of Our <span class="text-yellow-500">Faith</span></h2>
-                    <p class="text-gray-600 text-lg">Understanding the core beliefs that provide structure to the life of a believer and strength to the community.</p>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">The Pillars of Our <span
+                            class="text-yellow-500">Faith</span></h2>
+                    <p class="text-gray-600 text-lg">Understanding the core beliefs that provide structure to the life
+                        of a believer and strength to the community.</p>
                 </div>
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Concept Card 1 -->
-                    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all group">
-                        <div class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-yellow-500 text-3xl mb-6 group-hover:bg-yellow-400 group-hover:text-white transition-colors">
+                    <div
+                        class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all group">
+                        <div
+                            class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-yellow-500 text-3xl mb-6 group-hover:bg-yellow-400 group-hover:text-white transition-colors">
                             <iconify-icon icon="lucide:sun"></iconify-icon>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-4">Tawhid</h3>
-                        <p class="text-gray-600">The absolute oneness of God. It is the core of Islamic belief, teaching us that all of creation comes from and returns to One Source.</p>
+                        <p class="text-gray-600">The absolute oneness of God. It is the core of Islamic belief, teaching
+                            us that all of creation comes from and returns to One Source.</p>
                     </div>
                     <!-- Concept Card 2 -->
-                    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all group">
-                        <div class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-yellow-500 text-3xl mb-6 group-hover:bg-yellow-400 group-hover:text-white transition-colors">
+                    <div
+                        class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all group">
+                        <div
+                            class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-yellow-500 text-3xl mb-6 group-hover:bg-yellow-400 group-hover:text-white transition-colors">
                             <iconify-icon icon="lucide:shield-check"></iconify-icon>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-4">Adl (Justice)</h3>
-                        <p class="text-gray-600">Islam commands justice in all dealings. It teaches that fairness and equity are essential for a healthy and flourishing society.</p>
+                        <p class="text-gray-600">Islam commands justice in all dealings. It teaches that fairness and
+                            equity are essential for a healthy and flourishing society.</p>
                     </div>
                     <!-- Concept Card 3 -->
-                    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all group">
-                        <div class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-yellow-500 text-3xl mb-6 group-hover:bg-yellow-400 group-hover:text-white transition-colors">
+                    <div
+                        class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 hover:shadow-xl transition-all group">
+                        <div
+                            class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-yellow-500 text-3xl mb-6 group-hover:bg-yellow-400 group-hover:text-white transition-colors">
                             <iconify-icon icon="lucide:hand-metal"></iconify-icon>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-4">Ihsan</h3>
-                        <p class="text-gray-600">Excellence in worship and character. Doing what is beautiful and good, knowing that God is always watching over us with love.</p>
+                        <p class="text-gray-600">Excellence in worship and character. Doing what is beautiful and good,
+                            knowing that God is always watching over us with love.</p>
                     </div>
                 </div>
             </div>
@@ -289,35 +301,48 @@
         <section id="community" class="py-24 bg-white">
             <div class="max-w-7xl mx-auto px-6">
                 <div class="bg-gray-900 rounded-[3rem] overflow-hidden relative shadow-2xl">
-                    <div class="absolute top-0 right-0 w-1/2 h-full bg-yellow-400 hidden lg:block" style="clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);">
-                        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&amp;fit=crop&amp;q=80&amp;w=800" alt="Community Gathering" class="w-full h-full object-cover opacity-60 mix-blend-multiply">
+                    <div class="absolute top-0 right-0 w-1/2 h-full bg-yellow-400 hidden lg:block"
+                        style="clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);">
+                        <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&amp;fit=crop&amp;q=80&amp;w=800"
+                            alt="Community Gathering" class="w-full h-full object-cover opacity-60 mix-blend-multiply">
                     </div>
                     <div class="relative z-10 p-12 lg:p-24 lg:w-2/3">
-                        <h2 class="text-4xl lg:text-5xl font-bold text-white mb-8">Grow Together in a <span class="text-yellow-400">Vibrant Community</span></h2>
+                        <h2 class="text-4xl lg:text-5xl font-bold text-white mb-8">Grow Together in a <span
+                                class="text-yellow-400">Vibrant Community</span></h2>
                         <p class="text-gray-300 text-lg mb-12 max-w-xl">
-                            Whether you are exploring Islam for the first time, returning to your roots, or looking for a supportive network of friends, our community is here for you. We host weekly study circles, charity drives, and social mixers.
+                            Whether you are exploring Islam for the first time, returning to your roots, or looking for
+                            a supportive network of friends, our community is here for you. We host weekly study
+                            circles, charity drives, and social mixers.
                         </p>
                         <div class="grid sm:grid-cols-2 gap-6 mb-12">
                             <div class="flex items-center gap-3 text-white">
-                                <iconify-icon icon="lucide:check-circle-2" class="text-yellow-400 text-xl"></iconify-icon>
+                                <iconify-icon icon="lucide:check-circle-2"
+                                    class="text-yellow-400 text-xl"></iconify-icon>
                                 <span>Open Discussion Circles</span>
                             </div>
                             <div class="flex items-center gap-3 text-white">
-                                <iconify-icon icon="lucide:check-circle-2" class="text-yellow-400 text-xl"></iconify-icon>
+                                <iconify-icon icon="lucide:check-circle-2"
+                                    class="text-yellow-400 text-xl"></iconify-icon>
                                 <span>Youth Mentorship Programs</span>
                             </div>
                             <div class="flex items-center gap-3 text-white">
-                                <iconify-icon icon="lucide:check-circle-2" class="text-yellow-400 text-xl"></iconify-icon>
+                                <iconify-icon icon="lucide:check-circle-2"
+                                    class="text-yellow-400 text-xl"></iconify-icon>
                                 <span>Local Charity Initiatives</span>
                             </div>
                             <div class="flex items-center gap-3 text-white">
-                                <iconify-icon icon="lucide:check-circle-2" class="text-yellow-400 text-xl"></iconify-icon>
+                                <iconify-icon icon="lucide:check-circle-2"
+                                    class="text-yellow-400 text-xl"></iconify-icon>
                                 <span>Family Networking Events</span>
                             </div>
                         </div>
                         <div class="flex flex-wrap gap-4">
-                            <a href="#" id="community-cta-join" class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 px-10 py-4 rounded-2xl font-bold transition-all shadow-lg">Become a Member</a>
-                            <a href="#" id="community-cta-learn" class="bg-transparent border-2 border-gray-700 hover:border-gray-500 text-white px-10 py-4 rounded-2xl font-bold transition-all">View Events</a>
+                            <a href="#" id="community-cta-join"
+                                class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 px-10 py-4 rounded-2xl font-bold transition-all shadow-lg">Become
+                                a Member</a>
+                            <a href="#" id="community-cta-learn"
+                                class="bg-transparent border-2 border-gray-700 hover:border-gray-500 text-white px-10 py-4 rounded-2xl font-bold transition-all">View
+                                Events</a>
                         </div>
                     </div>
                 </div>
@@ -333,7 +358,8 @@
                             <div class="w-8 h-8 bg-yellow-400 rounded-md flex items-center justify-center">
                                 <iconify-icon icon="lucide:heart-handshake" class="text-white text-lg"></iconify-icon>
                             </div>
-                            <span class="font-bold text-xl tracking-tight text-gray-800">Deen<span class="text-yellow-500">Islam</span></span>
+                            <span class="font-bold text-xl tracking-tight text-gray-800">Deen<span
+                                    class="text-yellow-500">Islam</span></span>
                         </div>
                         <p class="text-gray-500 leading-relaxed">
                             Fostering understanding and building bridges through the beautiful teachings of Deen Islam.
@@ -343,29 +369,38 @@
                         <div>
                             <h5 class="font-bold text-gray-900 mb-4 uppercase text-xs tracking-widest">Explore</h5>
                             <ul class="space-y-3 text-gray-500">
-                                <li><a href="#" id="footer-link-about" class="hover:text-yellow-500 transition-colors">Our Mission</a></li>
-                                <li><a href="#" id="footer-link-pillars" class="hover:text-yellow-500 transition-colors">Pillars of Islam</a></li>
-                                <li><a href="#" id="footer-link-resources" class="hover:text-yellow-500 transition-colors">Resources</a></li>
+                                <li><a href="#" id="footer-link-about"
+                                        class="hover:text-yellow-500 transition-colors">Our Mission</a></li>
+                                <li><a href="#" id="footer-link-pillars"
+                                        class="hover:text-yellow-500 transition-colors">Pillars of Islam</a></li>
+                                <li><a href="#" id="footer-link-resources"
+                                        class="hover:text-yellow-500 transition-colors">Resources</a></li>
                             </ul>
                         </div>
                         <div>
                             <h5 class="font-bold text-gray-900 mb-4 uppercase text-xs tracking-widest">Community</h5>
                             <ul class="space-y-3 text-gray-500">
-                                <li><a href="#" id="footer-link-events" class="hover:text-yellow-500 transition-colors">Upcoming Events</a></li>
-                                <li><a href="#" id="footer-link-groups" class="hover:text-yellow-500 transition-colors">Local Groups</a></li>
-                                <li><a href="#" id="footer-link-volunteer" class="hover:text-yellow-500 transition-colors">Volunteer</a></li>
+                                <li><a href="#" id="footer-link-events"
+                                        class="hover:text-yellow-500 transition-colors">Upcoming Events</a></li>
+                                <li><a href="#" id="footer-link-groups"
+                                        class="hover:text-yellow-500 transition-colors">Local Groups</a></li>
+                                <li><a href="#" id="footer-link-volunteer"
+                                        class="hover:text-yellow-500 transition-colors">Volunteer</a></li>
                             </ul>
                         </div>
                         <div class="col-span-2 sm:col-span-1">
                             <h5 class="font-bold text-gray-900 mb-4 uppercase text-xs tracking-widest">Connect</h5>
                             <div class="flex gap-4">
-                                <a href="#" id="social-ig" class="w-10 h-10 bg-gray-200 hover:bg-yellow-400 hover:text-white rounded-full flex items-center justify-center transition-all">
+                                <a href="#" id="social-ig"
+                                    class="w-10 h-10 bg-gray-200 hover:bg-yellow-400 hover:text-white rounded-full flex items-center justify-center transition-all">
                                     <iconify-icon icon="lucide:instagram"></iconify-icon>
                                 </a>
-                                <a href="#" id="social-fb" class="w-10 h-10 bg-gray-200 hover:bg-yellow-400 hover:text-white rounded-full flex items-center justify-center transition-all">
+                                <a href="#" id="social-fb"
+                                    class="w-10 h-10 bg-gray-200 hover:bg-yellow-400 hover:text-white rounded-full flex items-center justify-center transition-all">
                                     <iconify-icon icon="lucide:facebook"></iconify-icon>
                                 </a>
-                                <a href="#" id="social-tw" class="w-10 h-10 bg-gray-200 hover:bg-yellow-400 hover:text-white rounded-full flex items-center justify-center transition-all">
+                                <a href="#" id="social-tw"
+                                    class="w-10 h-10 bg-gray-200 hover:bg-yellow-400 hover:text-white rounded-full flex items-center justify-center transition-all">
                                     <iconify-icon icon="lucide:twitter"></iconify-icon>
                                 </a>
                             </div>
@@ -383,4 +418,5 @@
         </footer>
     </div>
 </body>
+
 </html>

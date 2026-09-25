@@ -1,37 +1,34 @@
 import { Component, signal, inject, ChangeDetectionStrategy } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CreditCard } from '@primeicons/angular/credit-card';
-import { Gift } from '@primeicons/angular/gift';
-import { Wallet } from '@primeicons/angular/wallet';
-import { Shield } from '@primeicons/angular/shield';
-import { Users } from '@primeicons/angular/users';
-import { Verified } from '@primeicons/angular/verified';
-import { ToastModule } from 'primeng/toast';
-import { MessageService } from 'primeng/api';
-import { SpeedDialModule } from 'primeng/speeddial';
+// import { CreditCard } from '@primeicons/angular/credit-card';
+// import { Gift } from '@primeicons/angular/gift';
+// import { Wallet } from '@primeicons/angular/wallet';
+// import { Shield } from '@primeicons/angular/shield';
+// import { Users } from '@primeicons/angular/users';
+// import { Verified } from '@primeicons/angular/verified';
+import { ToastModule } from '@openng/optimus-ui/toast';
+import { MessageService } from '@openng/optimus-ui/api';
+import { SpeedDialModule } from '@openng/optimus-ui/speeddial';
 import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { MainPage } from './pages/main-page/main-page';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import {LicenseManager}
+
 
 @Component({
   selector: 'app-root',
   imports: [
-    MainPage,
     RouterOutlet,
-    CreditCard,
-    Gift,
-    Wallet,
-    Shield,
-    Users,
-    Verified,
+    // CreditCard,
+    // Gift,
+    // Wallet,
+    // Shield,
+    // Users,
+    // Verified,
     ToastModule,
     SpeedDialModule,
     Footer,
-    Header,
-    RouterLink,
-    RouterLinkActive,
+    Header
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',

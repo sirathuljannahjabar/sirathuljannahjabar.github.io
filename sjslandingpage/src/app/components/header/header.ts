@@ -1,5 +1,5 @@
 import { Component, signal, inject, ChangeDetectionStrategy } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@openng/optimus-ui/api';
 
 @Component({
   selector: 'app-header',
