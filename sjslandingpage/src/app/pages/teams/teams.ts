@@ -36,7 +36,7 @@ export class Teams {
               key: '0-0-0',
               data: {
                 image: "anggota_head_it.png",
-                name: "Muhammad Farras Ma'ruf, S.Ak.",
+                name: "Muhammad Farras Ma'ruf, S.Ak., M.Kom.",
                 title: 'IT Head',
               }
             }
@@ -47,7 +47,7 @@ export class Teams {
           expanded: true,
           data: {
             image: "Anggota Operation.png",
-            name: "Sri Kusnani",
+            name: "Sri Kusnani, S.Sy.",
             title: 'Kadiv Operasional',
           },
           children: [
