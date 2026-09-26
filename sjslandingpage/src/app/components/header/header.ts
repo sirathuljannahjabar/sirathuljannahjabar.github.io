@@ -3,6 +3,8 @@ import { MessageService,MenuItem } from '@openng/optimus-ui/api';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ButtonModule } from '@openng/optimus-ui/button';
 import { MenuModule } from '@openng/optimus-ui/menu';
+import { environment } from '../../../environments/environment';
+
 @Component({
   selector: 'app-header',
   imports: [RouterLink, RouterLinkActive,ButtonModule,MenuModule],
@@ -23,7 +25,7 @@ export class Header implements OnInit {
   }
 
   goToApplication = (): void => {
-    const url = 'https://app.sirathuljannahjabar.web.id/';
+    const url = environment.urlApp;
     console.log(url)
     window.location.href = url;
   }
