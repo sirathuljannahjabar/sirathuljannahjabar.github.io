@@ -4,7 +4,7 @@ import { DialogModule } from '@openng/optimus-ui/dialog';
 import { ButtonModule } from '@openng/optimus-ui/button';
 import { InputTextModule } from '@openng/optimus-ui/inputtext';
 import { Button } from '@openng/optimus-ui/button';
-
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-main-page',
@@ -19,4 +19,10 @@ export class MainPage {
   showDialog() {
     this.visible = true;
   }
+
+  goToApplicationDaftarAgent = (): void => {
+      const url = environment.urlAppDaftarAgent;
+      console.log(url)
+      window.location.href = url;
+    }
 }

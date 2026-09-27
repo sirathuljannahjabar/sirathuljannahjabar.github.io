@@ -30,6 +30,12 @@ export class Header implements OnInit {
     window.location.href = url;
   }
 
+  goToApplicationDaftarAgent = (): void => {
+    const url = environment.urlAppDaftarAgent;
+    console.log(url)
+    window.location.href = url;
+  }
+
     items: MenuItem[] | undefined;
 
     ngOnInit() {
@@ -46,7 +52,10 @@ export class Header implements OnInit {
                     },
                     {
                         label: 'Join',
-                        icon: 'pi pi-plus-circle'
+                        icon: 'pi pi-plus-circle',
+                        command: () => {
+                          this.goToApplicationDaftarAgent()
+                        }
                     }
                 ]
             }
